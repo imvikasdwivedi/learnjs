@@ -16,4 +16,4 @@ console.log(myDate.toLocaleDateString('en-IN')) //Formats only the date part in 
 console.log(myDate.toJSON())
 /*The .toJSON() method converts the Date object into a string in ISO format.
    It's commonly used when sending dates in APIs (like JSON responses).*/
-console.log(typeof myDate)
+console.log(typeof myDate);

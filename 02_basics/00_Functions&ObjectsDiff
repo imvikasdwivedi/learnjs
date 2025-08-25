@@ -1,0 +1,20 @@
+/*Functions are objects
+
+Every function is a special kind of object.
+
+Why? Because a function in JS can:
+
+Be called like fn()
+
+Also have properties like fn.name, fn.length, or even custom ones like fn.version = 1.0.
+
+ But not all objects are functions
+
+A plain object like:
+
+const user = { name: "Vikas" };
+
+
+is not callable — you can’t do user().
+
+It can only store properties/data/methods.*/

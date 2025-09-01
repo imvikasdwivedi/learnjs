@@ -17,6 +17,7 @@ console.log(JsUser['email']);
 //  when prop. key of object is in double quotes this won't work.
 console.log(JsUser['full Name']);// always works 
 console.log(JsUser.location);
+console.log(JsUser.isLoggedIn)
 
 
 

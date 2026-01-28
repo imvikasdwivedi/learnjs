@@ -32,7 +32,11 @@
 // console.log("1"+2)
 // console.log(1+"2")
 // console.log("1"+2+2)
-// console.log(1+2+"2") // all 5 can be seen as how they are interpreted in js, consider these as ecma guidelines
+// console.log(1+2+"2")
+//console.log(1++"2"+"2")
+//console.log("A"-"B"+2)
+
+// all can be seen as how they are interpreted in js, consider these as ecma guidelines
 
 let gameCounter = 100
 console.log(gameCounter++);// first return gameCounter then increments it
